@@ -1,5 +1,5 @@
 #-*- coding: UTF-8 -*-
-import mysql.connector
+#import mysql.connector
 
 from django.http import HttpResponse
 import json

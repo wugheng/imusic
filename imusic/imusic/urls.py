@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from django.conf.urls import include, url
+from imusic.views import ajax_list
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^ajax_list/$', 'imusic.views.ajax_list', name='ajax-list'),
 ]
 
-url(r'^ajax_list/$', 'tools.views.ajax_list', name='ajax-list'),
+

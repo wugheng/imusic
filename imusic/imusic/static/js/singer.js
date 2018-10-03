@@ -35,7 +35,15 @@ window.onload=function () {
         $(".sex a").css('background-color','')
         $(this).css("background-color","#63ffda");
     });
-
+    $('#list').click(function(){
+          $.getJSON('/ajax_list/',function(ret){
+            //返回值 ret 在这里是一个列表
+            for (var i = ret.length - 1; i >= 0; i--) {
+              // 把 ret 的每一项显示在网页上
+              $('#list_result').append(' ' + ret[i])
+            };
+          })
+      })
     function change1(event) {
         var index=event.target.dataset.index;
         for(var j=0;j<len;j++){
@@ -76,5 +84,6 @@ window.onload=function () {
             }
         }
     }
+
 
 };

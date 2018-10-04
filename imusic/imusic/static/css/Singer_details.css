@@ -233,3 +233,153 @@ div,ul,li,img,a,span,h3{
 .info ul li a{
     text-decoration: none;
 }
+.hot_part .tool_bar{
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 0;
+    height:38px;
+    margin-top:5px;
+}
+.hot_part .tool_bar a{
+    text-decoration: none;
+    cursor: auto;
+    margin-right: 6px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.hot_part .tool_bar .button{
+    border: 1px solid #31c27c;
+    background-color: #31c27c;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+    /*margin-right: 6px;*/
+    padding: 0 23px;
+    height: 38px;
+    line-height: 38px;
+    display: inline-block;
+    white-space: nowrap;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.mid_song{
+    margin-bottom: 40px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.mid_header{
+    /*padding-left: 122px;*/
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0,0,0,.01);
+    color: #999;
+    position: relative;
+    padding-right: 0;
+}
+.mid_header ul{
+    width:100%;
+    height: 50px;
+    padding:0px;
+}
+.mid_header ul li{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    float:left;
+}
+#music{
+    width: 50%;
+}
+#album{
+    width: 42%;
+}
+#time{
+    width: 8%;
+}
+.all_song ul{
+    width:100%;
+    margin:0px;
+}
+.all_song ul li{
+    list-style-type: none;
+    margin:0px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.all_song .content{
+    width:100%;
+    height:30px;
+}
+.all_song .content a{
+    text-decoration:none;
+    color:black;
+    float:left;
+}
+
+.music{
+    width: 50%;
+}
+.album{
+    width: 42%;
+}
+.time{
+    width: 8%;
+}
+
+.album_part h3{
+    float:left;
+    width:95%;
+}
+.album_part a{
+    text-decoration:none;
+    float:left;
+}
+
+.album_list{
+    background-color: #fbfbfd;
+    padding: 34px 0 17px 0px;
+    margin: 30px 0 20px;
+    width:100%;
+}
+.album_list li{
+    display: inline-block;
+    width: 19.5%;
+    padding-bottom: 44px;
+    overflow: hidden;
+    font-size: 14px;
+    vertical-align: top;
+    list-style: none;
+    padding-left:15px;
+}
+.msg{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 100%;
+    margin-bottom: 15px;
+}
+.msg a{
+    width:100%;
+}
+.msg a img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:205px;
+}
+.album_name{
+    margin-top:10px;
+    padding-top: 10px;
+}
+.album_name .albumname{
+    color:#000;
+    float:left;
+    text-decoration: none;
+}
+.album_name .albumsinger{
+    color:#999;
+    float:left;
+    text-decoration: none;
+}

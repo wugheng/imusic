@@ -1,0 +1,252 @@
+*{
+    padding:0;
+    margin:0;
+}
+div,ul,li,img,a,span,h3{
+    margin:0;
+    padding:0
+}
+.container{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+/*搜索+logo*/
+.header{
+    width:100%;
+    height:100%;
+    /*background-color: #c1e2b3;*/
+    padding-top:0;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+}
+
+.wrap{
+    width:1000px;
+    height:78px;
+    position:relative;
+    margin: 0 auto;
+}
+.wrap a{
+    text-decoration:none;
+}
+.wrap li{
+    list-style-type:none;
+    float:left;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    float:left;
+}
+#logo{
+    width:153px;
+    height:50px;
+    margin: 10px;
+}
+
+.search{
+    float:left;
+}
+
+.search form {
+    position: relative;
+    width: 300px;
+    margin-left:30px;
+    margin-top: 15px;
+}
+
+.search input, .search button {
+    border: none;
+    outline: none;
+}
+
+.search input {
+    width: 100%;
+    height: 42px;
+    padding-left: 13px;
+}
+.search input {
+    border: 2px solid #7BA7AB;
+    border-radius: 5px;
+    background: #F9F0DA;
+    color: #9E9C9C;
+}
+.search button {
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #7BA7AB;
+    border-radius: 0 5px 5px 0;
+}
+.search button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+.character{
+    float:left;
+    margin-left: 120px;
+    padding-top: 17px;
+}
+.character ul{
+    float:left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-right: 1px solid #e6e6e6;
+}
+.character li{
+    padding-bottom:5px;
+    padding-left: 5px;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+.login_area{
+    float:left;
+    margin:5px;
+}
+
+/*导航*/
+*{
+    padding: 0;
+    margin: 0;
+}/*一定要设置，ul,li等元素有默认的margin，padding。不手动去掉影响以后布局*/
+.tabBox{
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #dcdcdc;
+    position: relative;
+    height: 70px;
+    width:100%;
+}
+.homemenu{
+    list-style: none;
+    /*position: relative;*/
+    /*left: 200px;*/
+    margin: auto;
+    height: 100%;
+    width:750px;
+}
+.homemenu li{
+    float: left;
+    margin: 0;
+    height:100%;
+    position: relative;
+}
+.homemenu a{
+    display: inline-block;
+    padding: 20px 40px 20px 40px;/*撑开a标签，不让边框紧贴着文字*/
+    line-height: 30px;/*垂直方向上居中，vertical-align没有作用，当height=line-height时居中！！*/
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.selected{
+    /*height: 30px;*//*这个样式中有了2px上边，如果不改变高会溢出，设置overflow也不行，因为我们将它下移1px,覆盖最外层的border*/
+    background-color: #b9ffde;
+    border-top: 1px solid #b9ffde;
+    border-left:1px solid #b9ffde;
+    border-right: 1px solid #b9ffde;
+    position: relative;
+}
+.homemenu ul{
+    position: absolute;
+    /*width:120px;*/
+    display: none;
+    background: #b9ffde;
+    z-index:99999;
+}
+.homemenu ul li{
+    list-style-type:none;
+}
+.main{
+    width:1200px;
+    margin:auto;
+    position:relative;
+}
+.singer_tag{
+    background-color: #fbfbfd;
+    padding: 34px 0 17px 40px;
+    margin: 30px 0 20px;
+}
+.singer_tag div{
+    padding-bottom: 3px;
+    height: auto;
+    zoom: 1;
+    clear: both;
+    overflow: hidden;
+}
+.index{
+    width:90%;
+    margin: auto;
+}
+.area_item{
+    width:90%;
+    margin: auto;
+}
+.sex{
+    width:90%;
+    margin: auto;
+}
+.singer_tag a{
+    text-decoration: none;
+    float: left;
+    line-height: 26px;
+    padding: 0 8px;
+    margin: 0 12px 14px 0;
+    /*background-color: ;*/
+    color:black;
+}
+.album_list{
+    background-color: #fbfbfd;
+    padding: 34px 0 17px 40px;
+    margin: 30px 0 20px;
+}
+.album_list li{
+    display: inline-block;
+    width: 23%;
+    padding-bottom: 44px;
+    overflow: hidden;
+    font-size: 14px;
+    vertical-align: top;
+    list-style: none;
+    padding-left:28px;
+}
+.album{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 100%;
+    margin-bottom: 15px;
+}
+.album a{
+    width:100%;
+}
+.album a img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:235px;
+}
+.album_name{
+    padding-top: 10px;
+}
+.album_name .albumname{
+    color:#000;
+    float:left;
+    text-decoration: none;
+}
+.album_name .albumsinger{
+    color:#999;
+    float:left;
+    text-decoration: none;
+}

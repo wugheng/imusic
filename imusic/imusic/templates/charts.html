@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="../static/js/jquery-3.2.1.js"></script>
+    <script src="../static/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <link href="../static/css/homepage.css" rel="stylesheet" type="text/css" />
+    <link href="../static/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../static/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../static/css/charts.css">
+    <script src="../static/js/charts.js"></script>
+    <title>Charts</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="wrap">
+                <div class="logo">
+                    <a herf="index.html">
+                        <img id="logo" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533961756161&di=08088e1113ac47e2b2e8fbe3e89dc7f5&imgtype=0&src=http%3A%2F%2Fimg.25pp.com%2Fuploadfile%2Fapp%2Ficon%2F20151215%2F1450143551223555.jpg" alt="">
+                    </a>
+                </div>
+                <div class="search">
+                    <form>
+                        <input type="text" placeholder="请输入您要搜索的内容...">
+                        <button type="submit"></button>
+                    </form>
+                </div>
+                <div class="character">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="#">我的音乐</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">客户端</a>
+                        </li>
+                    </ul>
+                    <div class="login_area">
+                        <a href="#" class="btn btn-primary active" role="button">登陆</a>
+                        <a href="#" class="btn btn-default active" role="button">注册</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabBox">
+            <ul class="homemenu">
+                <li><a class="tab" href="javascript:;" data-index="0">首页</a></li>
+                <!--通过data-index传递数据-->
+                <li><a class="tab selected" id="unchange" href="javascript:;" data-index="1">排行榜</a></li>
+                <li><a class="tab" id="unchange" href="javascript:;" data-index="2">歌手</a></li>
+                <li><a class="tab" id="unchange" href="javascript:;" data-index="3">专辑</a></li>
+                <li class="more">
+                    <a class="tab" id="unchange"  href="javascript:;" data-index="4">更多</a>
+                    <ul class="secondmenu">
+                        <li><a href="#">电台</a> </li>
+                        <li><a href="#">MV</a> </li>
+                        <li><a href="#">歌单</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="chartslist">
+            <div class="nav_charts">
+                <dl class="toplist">
+                    <dt class="nav__tit">分类榜</dt>
+                    <dd class="nav__item"><a href="javascript:;" id="hotsong">热歌榜</a></dd>
+                    <dd class="nav__item"><a href="javascript:;">新歌榜</a></dd>
+                    <dd class="nav__item"><a href="javascript:;">华语榜</a></dd>
+                    <dd class="nav__item"><a href="javascript:;">欧美榜</a></dd>
+                    <dd class="nav__item"><a href="javascript:;">日韩榜</a></dd>
+                    <dd class="nav__item"><a href="javascript:;">影视金曲榜</a></dd>
+                    <dd class="nav__item"><a href="javascript:;">网红歌曲榜</a></dd>
+                </dl>
+                <dl class="toplist">
+                    <dt class="nav__tit">全球榜</dt>
+                    <dd class="nav__item"><a href="javascript:;">美国公告牌榜</a></dd>
+                    <dd class="nav__item"><a href="javascript:;">美国iTunes榜</a></dd>
+                    <dd class="nav__item"><a href="javascript:;">韩国Mnet榜</a></dd>
+                    <dd class="nav__item"><a href="javascript:;">日本公信榜</a></dd>
+                    <dd class="nav__item"><a href="javascript:;">英国UK榜</a></dd>
+                    <dd class="nav__item"><a href="javascript:;">台湾幽浮榜</a></dd>
+                    <dd class="nav__item"><a href="javascript:;">香港电台榜</a></dd>
+                </dl>
+            </div>
+            <div class="midcharts">
+                <div class="mid_hd">
+                    <h1 class="toplist__tit">热歌榜</h1>
+                </div>
+                <div class="tool_bar">
+                    <a href="#" class="button"><i class="icon ion-play"></i>播放全部</a>
+                    <a href="#" class="button"><i class="icon ion-android-add"></i>添加到</a>
+                    <a href="#" class="button"><i class="icon ion-android-download"></i>下载</a>
+                    <a href="#" class="button"><i class="icon ion-chatbox-working"></i>评论</a>
+                </div>
+                <div class="mid_song">
+                    <div class="mid_header">
+                        <ul>
+                            <li id="music">歌曲</li>
+                            <li id="singer">歌手</li>
+                            <li id="time">时长</li>
+                        </ul>
+                    </div>
+                    <div class="all_song">
+                        <ul>
+                            <li>
+                                <div class="content">
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

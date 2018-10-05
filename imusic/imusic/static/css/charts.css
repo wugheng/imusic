@@ -246,7 +246,6 @@ div,ul,li,img,a,span,h3{
     overflow: hidden;
 }
 .mid_header{
-    padding-left: 122px;
     height: 50px;
     line-height: 50px;
     background-color: rgba(0,0,0,.01);
@@ -273,4 +272,35 @@ div,ul,li,img,a,span,h3{
 }
 #time{
     width: 8%;
+}
+
+.all_song ul{
+    width:100%;
+    margin:0px;
+}
+.all_song ul li{
+    list-style-type: none;
+    margin:0px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.all_song .content{
+    width:100%;
+    height:30px;
+    padding-left:122px;
+}
+.all_song .content a{
+    text-decoration:none;
+    color:black;
+    float:left;
+}
+
+.music{
+    width: 68%;
+}
+.singer{
+    width: 22%;
+}
+.time{
+    width:8%;
 }
